@@ -58,7 +58,7 @@
     <div class="col-md-6 col-lg-4">
         <div class="">
           <h4 class="h5 font-weight-600">Let's talk</h4>
-          <p class=" mb-4">Feel free to get in touch with me. I am always open to discuss new projects, creative ideas or opportunities to be part of your visions.</p>
+          <p class=" mb-4">Я специально сделал текст нечитамемым, чтобы вы пользовались формой.</p>
         </div>
         <div class="media mb-4 d-flex">
           <div class="ui-icon ui-icon-sm rounded-circle mx-0 flex-shrink-0 ui-icon-click" data-copy="gleb.stop@gmail.com">

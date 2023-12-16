@@ -20,6 +20,10 @@ Route::get('/', function () {
     return view('im');
 })->name('im');
 
+Route::get('/about', function () {
+    return view('im');
+})->name('about');
+
 Route::get('/inertia', function () {
     return Inertia::render('index', [
         'title' => 'Laravel 10, Inertia.js, Svelte, Tailwind CSS',

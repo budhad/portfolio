@@ -11,7 +11,7 @@
 
   <div class="row align-items-center position-relative">
     <div class="col-md-6 col-lg-6 text-left mb-4 mb-lg-0">
-      <h1 class="fs-0 font-weight-700 mb-0 text-uppercase amatic">FFFFFFFFFFFF Глеб Стопудов
+      <h1 class="fs-0 font-weight-700 mb-0 text-uppercase amatic">FFFFFFFFFFFFd Глеб Стопудов
       </h1>
       <p class="mb-0 lead amatic">Разработчик чудесатого.</p>
       <ul class="list-inline  mb-0 mt-3">

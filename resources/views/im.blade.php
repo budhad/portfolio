@@ -2,8 +2,6 @@
 @section('title', 'Кабинет')
 @section('content')
 
-{{-- <canvas class="background"></canvas> --}}
-
 <section class="min-h radius-half spacer-xl-top spacer-xl-bottom position-relative background-queen_main">
   <svg class=" p6 d-lg-block d-none" data-name="half-circle-fade" xmlns="http://www.w3.org/2000/svg"
   viewBox="0 0 155.76 153.36">
