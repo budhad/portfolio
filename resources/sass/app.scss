@@ -1,0 +1,38 @@
+// Fonts
+// @import url('https://fonts.bunny.net/css?family=Nunito');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap');
+
+// Bootstrap
+@import 'bootstrap/scss/bootstrap';
+// Variables
+@import 'variables';
+@import 'fonts';
+@import 'layout_app_blade';
+// @import 'tailwind';
+// @import 'normalize';
+
+
+// @import "bootstrap/scss/functions";
+// @import "bootstrap/scss/variables";
+// @import "bootstrap/scss/utilities";
+
+// $utilities: map-merge(
+//   $utilities, (
+//     "width": map-merge(
+//       map-get($utilities, "width"),
+//       ( responsive: true ),
+//     ),
+//   )
+// );
+// @import "../node_modules/bootstrap/scss/variables-dark";
+
+// h1 {
+//   background: url("/images/logo-circle.png") left / auto 100% no-repeat,
+//   url("/images/logo-circle.png") right / auto 100% no-repeat;
+//  } 
+
+#snake_live {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
