@@ -30,17 +30,18 @@
    </div>
    <div id="app">
       <div id="wrapper" class="wrapper home">
-         <div class="container  spacer-xlg">
+         <div class="container spacer-m">
             <div class="row bg-dark radius-2 shadow-lg">
                <div class="col-lg-1 pt-5 pb-3 sidebar-wrapper">
                   <!-- @ include('sidebar') -->
                   <sidebar></sidebar>
                </div>
                <div class="col-lg-11 p-0 content-wrapper">
-                  <router-view v-slot="{ Component, route }">
+                  <router-view 
+                  v-slot="{ Component, route }">
                      <transition 
-                     :duration="450" 
-                     :name="route.meta.transition || 'fade'"
+                     duration="550" 
+                     name="fade"
                      mode="out-in">
                         <component :is="Component" />
                      </transition>

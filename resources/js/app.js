@@ -2,6 +2,16 @@ import './bootstrap';
 import './parallax';
 import './venobox';
 import './core';
+// Vuetify
+import 'vuetify/styles'
+import { createVuetify } from 'vuetify'
+import * as components from 'vuetify/components'
+import * as directives from 'vuetify/directives'
+const vuetify = createVuetify({
+    components,
+    directives,
+})
+
 // import 'particles.js/particles.js';
 import './akita-particles.js';
 // import { createApp } from 'vue';
@@ -41,10 +51,12 @@ const router = createRouter({
 });
 
 
-const app = createApp({})
+const app = createApp({
+})
 app.component('im', IM)
 app.component('resume', Resume)
 app.component('sidebar', Sidebar)
 
 app.use(router);
+app.use(vuetify)
 app.mount('#app');

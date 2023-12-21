@@ -1,9 +1,12 @@
 <template>
-    <div class="sticky-lg-top">
+    <div class="sticky-lg-top" ref="body" >
     <header class="text-center d-flex flex-column">
         <div class="position-relative d-inline-block">
             <a class="mb-menu position-absolute" href="#"></a>
-            <router-link class="d-inline-block" to="/">
+            <router-link 
+            @click="scrollTop"
+            class="d-inline-block" 
+            to="/">
                 <div class="profile-image">
                     <img class="rounded-circle img-sm" src="images/logo-circle.jpg"
                         alt="Image">
@@ -17,7 +20,9 @@
             <ul class="p-0 mb-4 mb-lg-0">
             <li>
                 <!-- <a class="" href="/resume"> -->
-                <router-link to="/resume">
+                <router-link 
+                @click="scrollTop"
+                to="/resume">
                     <span class="  btn-round btn-round-sm d-inline-block radius-2">
                         <i class="fa fa-solid fa-address-card btn-icon-inner"></i>
                     </span>
@@ -25,7 +30,9 @@
                 </router-link>
             </li>
             <li>
-                <router-link to="/inertia">
+                <router-link 
+                @click="scrollTop"
+                to="/inertia">
                     <span class="btn-round btn-round-sm d-inline-block radius-2">
                         <i class="fa fa-solid fa-umbrella-beach btn-icon-inner"></i>
                     </span>
@@ -33,7 +40,9 @@
                 </router-link>
             </li>
             <li>
-                <router-link to="/inertiacontact">
+                <router-link 
+                @click="scrollTop"
+                to="/inertiacontact">
                     <span class=" btn-round btn-round-sm d-inline-block radius-2">
                         <i class="fa fa-comments btn-icon-inner"></i>
                     </span>
@@ -41,7 +50,9 @@
                 </router-link>
             </li>
             <li>
-                <router-link to="/contact">
+                <router-link 
+                @click="scrollTop"
+                to="/contact">
                     <span class=" btn-round btn-round-sm d-inline-block radius-2">
                         <i class="fa fa-phone btn-icon-inner"></i>
                     </span>
@@ -51,7 +62,9 @@
             </ul>
 
             <div class="text-center mt-4 d-none d-lg-block ">
-                <router-link to="/adverts">
+                <router-link 
+                @click="scrollTop"
+                to="/adverts">
                     <span class=" btn-round btn-round-md d-inline-block radius-2 shadow-h">
                         <i class="fa fa-download btn-icon-inner"></i>
                     </span>
@@ -71,6 +84,11 @@ export default {
     data() {
         return {
 
+        }
+    },
+    methods: {
+        scrollTop() {
+          window.scrollTo(0, 0);
         }
     }
 }
